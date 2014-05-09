@@ -4,18 +4,20 @@ ZeroMQCxxAPI
 A small wrapper around ZeroMQ C API using CMake and wxWidgets
 
 Requirements
-============
+----
 
 * wxWidgets installed and compiled
-* wx-config in your path (this is required for Windows also!)
+* **Windows only** MinGW / g++ Compiler
+* wx-config in your path (this is required for **Windows** also!). For Windows, you can [download and install it from here][1]
 * CMake 2.8 or later
 
 Build
-=====
+----
 
-* A workspace is provided for CodeLite IDE
-* From command line:
-  
+You can choose the compile the code using [CodeLite IDE][2] or from the command line
+
+Building from the command line
+----
 Windows / MinGW:
 
 ```
@@ -33,3 +35,6 @@ Linux:
   make -j8
 ```
 
+
+  [1]: http://sourceforge.net/projects/codelite/files/Releases/codelite-5.3/wxwidgets-3.0-tdm-gcc-481-32-devel.exe/download
+  [2]: http://codelite.org
