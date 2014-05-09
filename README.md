@@ -3,6 +3,13 @@ ZeroMQCxxAPI
 
 A small wrapper around ZeroMQ C API using CMake and wxWidgets
 
+Requirements
+============
+
+* wxWidgets installed and compiled
+* wx-config in your path (this is required for Windows also!)
+* CMake 2.8 or later
+
 Build
 =====
 
@@ -11,11 +18,13 @@ Build
   
 Windows / MinGW:
 
+```
   mkdir build-debug
   cd build-debug
   cmake -G "MinGW Makefiles" .. -DCMAKE_BUILD_TYPE=Debug
   mingw32-make -j8
-  
+```
+
 Linux:
 ```
   mkdir build-debug
