@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="LibZeroMQ" InternalType="Library">
+  <VirtualDirectory Name="cmake">
+    <VirtualDirectory Name="Modules">
+      <File Name="cmake/Modules/FindwxWidgetsMinGW.cmake"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="zeromq-4.0.4">
+    <VirtualDirectory Name="builds">
+      <VirtualDirectory Name="msvc">
+        <File Name="zeromq-4.0.4/builds/msvc/errno.hpp"/>
+        <File Name="zeromq-4.0.4/builds/msvc/platform.hpp"/>
+        <File Name="zeromq-4.0.4/builds/msvc/errno.cpp"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="include">
+      <File Name="zeromq-4.0.4/include/zmq.h"/>
+      <File Name="zeromq-4.0.4/include/zmq_utils.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="src">
+      <File Name="zeromq-4.0.4/src/address.cpp"/>
+      <File Name="zeromq-4.0.4/src/address.hpp"/>
+      <File Name="zeromq-4.0.4/src/array.hpp"/>
+      <File Name="zeromq-4.0.4/src/atomic_counter.hpp"/>
+      <File Name="zeromq-4.0.4/src/atomic_ptr.hpp"/>
+      <File Name="zeromq-4.0.4/src/blob.hpp"/>
+      <File Name="zeromq-4.0.4/src/clock.cpp"/>
+      <File Name="zeromq-4.0.4/src/clock.hpp"/>
+      <File Name="zeromq-4.0.4/src/command.hpp"/>
+      <File Name="zeromq-4.0.4/src/config.hpp"/>
+      <File Name="zeromq-4.0.4/src/ctx.cpp"/>
+      <File Name="zeromq-4.0.4/src/ctx.hpp"/>
+      <File Name="zeromq-4.0.4/src/curve_client.cpp"/>
+      <File Name="zeromq-4.0.4/src/curve_client.hpp"/>
+      <File Name="zeromq-4.0.4/src/curve_server.cpp"/>
+      <File Name="zeromq-4.0.4/src/curve_server.hpp"/>
+      <File Name="zeromq-4.0.4/src/dbuffer.hpp"/>
+      <File Name="zeromq-4.0.4/src/dealer.cpp"/>
+      <File Name="zeromq-4.0.4/src/dealer.hpp"/>
+      <File Name="zeromq-4.0.4/src/decoder.hpp"/>
+      <File Name="zeromq-4.0.4/src/devpoll.cpp"/>
+      <File Name="zeromq-4.0.4/src/devpoll.hpp"/>
+      <File Name="zeromq-4.0.4/src/dist.cpp"/>
+      <File Name="zeromq-4.0.4/src/dist.hpp"/>
+      <File Name="zeromq-4.0.4/src/encoder.hpp"/>
+      <File Name="zeromq-4.0.4/src/epoll.cpp"/>
+      <File Name="zeromq-4.0.4/src/epoll.hpp"/>
+      <File Name="zeromq-4.0.4/src/err.cpp"/>
+      <File Name="zeromq-4.0.4/src/err.hpp"/>
+      <File Name="zeromq-4.0.4/src/fd.hpp"/>
+      <File Name="zeromq-4.0.4/src/fq.cpp"/>
+      <File Name="zeromq-4.0.4/src/fq.hpp"/>
+      <File Name="zeromq-4.0.4/src/io_object.cpp"/>
+      <File Name="zeromq-4.0.4/src/io_object.hpp"/>
+      <File Name="zeromq-4.0.4/src/io_thread.cpp"/>
+      <File Name="zeromq-4.0.4/src/io_thread.hpp"/>
+      <File Name="zeromq-4.0.4/src/ip.cpp"/>
+      <File Name="zeromq-4.0.4/src/ip.hpp"/>
+      <File Name="zeromq-4.0.4/src/ipc_address.cpp"/>
+      <File Name="zeromq-4.0.4/src/ipc_address.hpp"/>
+      <File Name="zeromq-4.0.4/src/ipc_connecter.cpp"/>
+      <File Name="zeromq-4.0.4/src/ipc_connecter.hpp"/>
+      <File Name="zeromq-4.0.4/src/ipc_listener.cpp"/>
+      <File Name="zeromq-4.0.4/src/ipc_listener.hpp"/>
+      <File Name="zeromq-4.0.4/src/i_decoder.hpp"/>
+      <File Name="zeromq-4.0.4/src/i_encoder.hpp"/>
+      <File Name="zeromq-4.0.4/src/i_engine.hpp"/>
+      <File Name="zeromq-4.0.4/src/i_poll_events.hpp"/>
+      <File Name="zeromq-4.0.4/src/kqueue.cpp"/>
+      <File Name="zeromq-4.0.4/src/kqueue.hpp"/>
+      <File Name="zeromq-4.0.4/src/lb.cpp"/>
+      <File Name="zeromq-4.0.4/src/lb.hpp"/>
+      <File Name="zeromq-4.0.4/src/likely.hpp"/>
+      <File Name="zeromq-4.0.4/src/mailbox.cpp"/>
+      <File Name="zeromq-4.0.4/src/mailbox.hpp"/>
+      <File Name="zeromq-4.0.4/src/mechanism.cpp"/>
+      <File Name="zeromq-4.0.4/src/mechanism.hpp"/>
+      <File Name="zeromq-4.0.4/src/msg.cpp"/>
+      <File Name="zeromq-4.0.4/src/msg.hpp"/>
+      <File Name="zeromq-4.0.4/src/mtrie.cpp"/>
+      <File Name="zeromq-4.0.4/src/mtrie.hpp"/>
+      <File Name="zeromq-4.0.4/src/mutex.hpp"/>
+      <File Name="zeromq-4.0.4/src/null_mechanism.cpp"/>
+      <File Name="zeromq-4.0.4/src/null_mechanism.hpp"/>
+      <File Name="zeromq-4.0.4/src/object.cpp"/>
+      <File Name="zeromq-4.0.4/src/object.hpp"/>
+      <File Name="zeromq-4.0.4/src/options.cpp"/>
+      <File Name="zeromq-4.0.4/src/options.hpp"/>
+      <File Name="zeromq-4.0.4/src/own.cpp"/>
+      <File Name="zeromq-4.0.4/src/own.hpp"/>
+      <File Name="zeromq-4.0.4/src/pair.cpp"/>
+      <File Name="zeromq-4.0.4/src/pair.hpp"/>
+      <File Name="zeromq-4.0.4/src/pgm_receiver.cpp"/>
+      <File Name="zeromq-4.0.4/src/pgm_receiver.hpp"/>
+      <File Name="zeromq-4.0.4/src/pgm_sender.cpp"/>
+      <File Name="zeromq-4.0.4/src/pgm_sender.hpp"/>
+      <File Name="zeromq-4.0.4/src/pgm_socket.cpp"/>
+      <File Name="zeromq-4.0.4/src/pgm_socket.hpp"/>
+      <File Name="zeromq-4.0.4/src/pipe.cpp"/>
+      <File Name="zeromq-4.0.4/src/pipe.hpp"/>
+      <File Name="zeromq-4.0.4/src/plain_mechanism.cpp"/>
+      <File Name="zeromq-4.0.4/src/plain_mechanism.hpp"/>
+      <File Name="zeromq-4.0.4/src/poll.cpp"/>
+      <File Name="zeromq-4.0.4/src/poll.hpp"/>
+      <File Name="zeromq-4.0.4/src/poller.hpp"/>
+      <File Name="zeromq-4.0.4/src/poller_base.cpp"/>
+      <File Name="zeromq-4.0.4/src/poller_base.hpp"/>
+      <File Name="zeromq-4.0.4/src/precompiled.cpp"/>
+      <File Name="zeromq-4.0.4/src/precompiled.hpp"/>
+      <File Name="zeromq-4.0.4/src/proxy.cpp"/>
+      <File Name="zeromq-4.0.4/src/proxy.hpp"/>
+      <File Name="zeromq-4.0.4/src/pub.cpp"/>
+      <File Name="zeromq-4.0.4/src/pub.hpp"/>
+      <File Name="zeromq-4.0.4/src/pull.cpp"/>
+      <File Name="zeromq-4.0.4/src/pull.hpp"/>
+      <File Name="zeromq-4.0.4/src/push.cpp"/>
+      <File Name="zeromq-4.0.4/src/push.hpp"/>
+      <File Name="zeromq-4.0.4/src/random.cpp"/>
+      <File Name="zeromq-4.0.4/src/random.hpp"/>
+      <File Name="zeromq-4.0.4/src/raw_decoder.cpp"/>
+      <File Name="zeromq-4.0.4/src/raw_decoder.hpp"/>
+      <File Name="zeromq-4.0.4/src/raw_encoder.cpp"/>
+      <File Name="zeromq-4.0.4/src/raw_encoder.hpp"/>
+      <File Name="zeromq-4.0.4/src/reaper.cpp"/>
+      <File Name="zeromq-4.0.4/src/reaper.hpp"/>
+      <File Name="zeromq-4.0.4/src/rep.cpp"/>
+      <File Name="zeromq-4.0.4/src/rep.hpp"/>
+      <File Name="zeromq-4.0.4/src/req.cpp"/>
+      <File Name="zeromq-4.0.4/src/req.hpp"/>
+      <File Name="zeromq-4.0.4/src/router.cpp"/>
+      <File Name="zeromq-4.0.4/src/router.hpp"/>
+      <File Name="zeromq-4.0.4/src/select.cpp"/>
+      <File Name="zeromq-4.0.4/src/select.hpp"/>
+      <File Name="zeromq-4.0.4/src/session_base.cpp"/>
+      <File Name="zeromq-4.0.4/src/session_base.hpp"/>
+      <File Name="zeromq-4.0.4/src/signaler.cpp"/>
+      <File Name="zeromq-4.0.4/src/signaler.hpp"/>
+      <File Name="zeromq-4.0.4/src/socket_base.cpp"/>
+      <File Name="zeromq-4.0.4/src/socket_base.hpp"/>
+      <File Name="zeromq-4.0.4/src/stdint.hpp"/>
+      <File Name="zeromq-4.0.4/src/stream.cpp"/>
+      <File Name="zeromq-4.0.4/src/stream.hpp"/>
+      <File Name="zeromq-4.0.4/src/stream_engine.cpp"/>
+      <File Name="zeromq-4.0.4/src/stream_engine.hpp"/>
+      <File Name="zeromq-4.0.4/src/sub.cpp"/>
+      <File Name="zeromq-4.0.4/src/sub.hpp"/>
+      <File Name="zeromq-4.0.4/src/tcp.cpp"/>
+      <File Name="zeromq-4.0.4/src/tcp.hpp"/>
+      <File Name="zeromq-4.0.4/src/tcp_address.cpp"/>
+      <File Name="zeromq-4.0.4/src/tcp_address.hpp"/>
+      <File Name="zeromq-4.0.4/src/tcp_connecter.cpp"/>
+      <File Name="zeromq-4.0.4/src/tcp_connecter.hpp"/>
+      <File Name="zeromq-4.0.4/src/tcp_listener.cpp"/>
+      <File Name="zeromq-4.0.4/src/tcp_listener.hpp"/>
+      <File Name="zeromq-4.0.4/src/thread.cpp"/>
+      <File Name="zeromq-4.0.4/src/thread.hpp"/>
+      <File Name="zeromq-4.0.4/src/trie.cpp"/>
+      <File Name="zeromq-4.0.4/src/trie.hpp"/>
+      <File Name="zeromq-4.0.4/src/v1_decoder.cpp"/>
+      <File Name="zeromq-4.0.4/src/v1_decoder.hpp"/>
+      <File Name="zeromq-4.0.4/src/v1_encoder.cpp"/>
+      <File Name="zeromq-4.0.4/src/v1_encoder.hpp"/>
+      <File Name="zeromq-4.0.4/src/v2_decoder.cpp"/>
+      <File Name="zeromq-4.0.4/src/v2_decoder.hpp"/>
+      <File Name="zeromq-4.0.4/src/v2_encoder.cpp"/>
+      <File Name="zeromq-4.0.4/src/v2_encoder.hpp"/>
+      <File Name="zeromq-4.0.4/src/v2_protocol.hpp"/>
+      <File Name="zeromq-4.0.4/src/windows.hpp"/>
+      <File Name="zeromq-4.0.4/src/wire.hpp"/>
+      <File Name="zeromq-4.0.4/src/xpub.cpp"/>
+      <File Name="zeromq-4.0.4/src/xpub.hpp"/>
+      <File Name="zeromq-4.0.4/src/xsub.cpp"/>
+      <File Name="zeromq-4.0.4/src/xsub.hpp"/>
+      <File Name="zeromq-4.0.4/src/ypipe.hpp"/>
+      <File Name="zeromq-4.0.4/src/ypipe_base.hpp"/>
+      <File Name="zeromq-4.0.4/src/ypipe_conflate.hpp"/>
+      <File Name="zeromq-4.0.4/src/yqueue.hpp"/>
+      <File Name="zeromq-4.0.4/src/zmq.cpp"/>
+      <File Name="zeromq-4.0.4/src/zmq_utils.cpp"/>
+    </VirtualDirectory>
+    <File Name="zeromq-4.0.4/CMakeLists.txt"/>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="ZeroMQ4CxxAPI">
+    <File Name="ZeroMQ4CxxAPI/CMakeLists.txt"/>
+    <File Name="ZeroMQ4CxxAPI/ZMQContext.cpp"/>
+    <File Name="ZeroMQ4CxxAPI/ZMQContext.h"/>
+    <File Name="ZeroMQ4CxxAPI/ZMQException.cpp"/>
+    <File Name="ZeroMQ4CxxAPI/ZMQException.h"/>
+    <File Name="ZeroMQ4CxxAPI/ZMQExports"/>
+    <File Name="ZeroMQ4CxxAPI/ZMQMessage.cpp"/>
+    <File Name="ZeroMQ4CxxAPI/ZMQMessage.h"/>
+    <File Name="ZeroMQ4CxxAPI/ZMQSocket.cpp"/>
+    <File Name="ZeroMQ4CxxAPI/ZMQSocket.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="cwd">
+    <File Name="CMakeLists.txt"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="ZMQClientTester">
+    <File Name="ZMQClientTester/CMakeLists.txt"/>
+    <File Name="ZMQClientTester/main.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="ZMQServerTester">
+    <File Name="ZMQServerTester/CMakeLists.txt"/>
+    <File Name="ZMQServerTester/main.cpp"/>
+  </VirtualDirectory>
+  <Settings Type="Dynamic Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+        <IncludePath Value="zeromq-4.0.4/builds/msvc"/>
+        <Preprocessor Value="DLL_EXPORT"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <Library Value="Ws2_32"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).dll" IntermediateDirectory="./Debug" Command="D:/src/LibZeroMQ/build-debug/bin/ZeroMQClientTester.exe" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <Target Name="CMake - MinGW Debug">cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS=1</Target>
+        <RebuildCommand>mingw32-make clean &amp;&amp; mingw32-make -j8</RebuildCommand>
+        <CleanCommand>mingw32-make clean</CleanCommand>
+        <BuildCommand>mingw32-make -j8</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory>build-debug</WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+        <IncludePath Value="zeromq-4.0.4/builds/msvc"/>
+        <Preprocessor Value="DLL_EXPORT"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <Library Value="Ws2_32"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).dll" IntermediateDirectory="./Debug" Command="" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <Target Name="CMake - MinGW Release">cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=1</Target>
+        <RebuildCommand>mingw32-make clean &amp;&amp; mingw32-make -j8</RebuildCommand>
+        <CleanCommand>mingw32-make clean</CleanCommand>
+        <BuildCommand>mingw32-make -j8</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory>build-release</WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release_WX28" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+        <IncludePath Value="zeromq-4.0.4/builds/msvc"/>
+        <Preprocessor Value="DLL_EXPORT"/>
+      </Compiler>
+      <Linker Options="" Required="yes">
+        <Library Value="Ws2_32"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).dll" IntermediateDirectory="./Debug" Command="D:/src/LibZeroMQ/build-release-wx28/bin/ZeroMQClientTester.exe" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[WXWIN=D:\software\CodeBlocks\SDK\wxWidgets-2.8.12
+PATH=D:\software\CodeBlocks\MinGW\bin;$WXWIN\lib\gcc_dll;$PATH]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <Target Name="CMake - MinGW Release">cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=1</Target>
+        <RebuildCommand>mingw32-make clean &amp;&amp; mingw32-make -j8</RebuildCommand>
+        <CleanCommand>mingw32-make clean</CleanCommand>
+        <BuildCommand>mingw32-make -j8</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory>build-release-wx28</WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>

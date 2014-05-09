@@ -1,0 +1,16 @@
+project(ZeroMQ4)
+
+file(GLOB SRCS "src/*.cpp")
+if ( NOT UNIX )
+    include_directories(${CMAKE_CURRENT_LIST_DIR})
+    include_directories(${CMAKE_CURRENT_LIST_DIR}/builds/msvc)
+    add_definitions(-DDLL_EXPORT)
+    add_definitions(-D__MINGW32__)
+else ()
+    add_definitions(-fPIC)
+    include_directories(${CMAKE_CURRENT_LIST_DIR})
+    include_directories(${CMAKE_CURRENT_LIST_DIR}/builds/msvc)
+endif()
+
+add_library(ZeroMQ4 SHARED ${SRCS})
+target_link_libraries(ZeroMQ4 Ws2_32)

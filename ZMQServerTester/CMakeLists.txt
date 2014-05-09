@@ -1,0 +1,26 @@
+project(ZeroMQServerTester)
+file(GLOB SRCS "*.cpp")
+
+if ( NOT UNIX )
+    include(FindwxWidgetsMinGW)
+    include_directories(${CMAKE_SOURCE_DIR}/zeromq-4.0.4/include)
+    include_directories(${CMAKE_SOURCE_DIR}/zeromq-4.0.4/builds/msvc)
+    include_directories(${CMAKE_SOURCE_DIR}/ZeroMQ4CxxAPI)
+    include_directories(${wxWidgets_INCLUDE_DIRS})
+    
+    add_definitions(-DDLL_EXPORT)
+    add_definitions(-D__MINGW32__)
+    add_definitions( "${wxWidgets_CXX_FLAGS}" )
+    add_definitions( "${wxWidgets_DEFINITIONS}" )
+    
+else ()
+    add_definitions(-fPIC)
+    include_directories(${CMAKE_SOURCE_DIR}/zeromq-4.0.4/include)
+    include_directories(${CMAKE_SOURCE_DIR}/ZeroMQ4CxxAPI)
+    find_package(wxWidgets COMPONENTS std REQUIRED)
+endif()
+
+add_executable(ZeroMQServerTester ${SRCS})
+target_link_libraries(ZeroMQServerTester ZeroMQ4CxxAPI)
+target_link_libraries(ZeroMQServerTester ${wxWidgets_LIBRARIES})
+target_link_libraries(ZeroMQServerTester ZeroMQ4)

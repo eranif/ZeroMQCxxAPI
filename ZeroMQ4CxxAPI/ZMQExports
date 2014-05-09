@@ -1,0 +1,10 @@
+#ifndef ZMQEXPORTS
+#define ZMQEXPORTS
+
+#ifdef BUILDING_DLL
+#   define ZMQC_EXPORT __declspec(dllexport)
+#else
+#   define ZMQC_EXPORT __declspec(dllimport)
+#endif
+
+#endif
