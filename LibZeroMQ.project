@@ -196,6 +196,7 @@
   </VirtualDirectory>
   <VirtualDirectory Name="cwd">
     <File Name="CMakeLists.txt"/>
+    <File Name="README.md"/>
   </VirtualDirectory>
   <VirtualDirectory Name="ZMQClientTester">
     <File Name="ZMQClientTester/CMakeLists.txt"/>
